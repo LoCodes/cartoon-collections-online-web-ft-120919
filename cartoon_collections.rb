@@ -33,9 +33,8 @@ end
 
 summon_captain_planet(planeteer_calls)
 
-# The planeteer_calls are supposed to be short, so we want to
 # find out if any of our calls have more than 4 characters.
-#
+
 # Use the any? method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-any-3F
 
