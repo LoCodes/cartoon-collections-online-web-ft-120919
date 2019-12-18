@@ -15,6 +15,7 @@ end
 
 roll_call_dwarves(dwarves)
 
+
 planeteer_calls = %w["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer_calls)# code an argument here
@@ -30,6 +31,7 @@ end
 #names.each { |name| puts name + ' is a programmer' }
 
 long_planeteer_calls(summon_captain_planet)
+
 
 def long_planeteer_calls(planeteer_calls)# code an argument here
   planeteer_calls.all? { |call| call.length >= 4 }   # Your code here
